@@ -1,0 +1,83 @@
+.slide .body form.content {
+	padding: 1em;
+	max-width: 26em;
+}
+
+input[type=text],
+input[type=password] {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-size: 1.2em;
+	padding:  0.25em 0.5em;
+	border: 0.2em solid #333;
+	margin: 0;
+	margin-left: 0.5em;
+	border-color: rgba(255, 255, 255, 0.3);
+	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #eee;
+}
+label {
+	font-size: 1.2em;
+	font-weight: 700;
+}
+input[type=submit] {
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	font-size: 1.2em;
+	padding: 0.45em 0.7em;
+	border: none;
+	margin: 0;
+	background-color: #eee;
+	background-color: rgba(255, 255, 255, 0.9);
+	color: #111;
+}
+
+form p.field {
+	text-align: right;
+}
+
+form p.field .error {
+	display: none;
+}
+form p.field.invalid .error {
+	display: block;
+}
+form p.field .error span {
+	display: inline-block;
+	padding:  0.25em 0.5em;
+	background-color: #c00;
+	font-weight: 700;
+}
+form p.field.invalid input[type=text],
+form p.field.invalid input[type=password]{
+	border-color: #c00;
+}
+
+form .actions {
+	position: relative;
+	text-align: right;
+}
+
+form ul.nav {
+	position: absolute;
+	left: 0;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.slide form.content ul.nav li {
+	display: inline-block;
+	font-family: "Lato", sans-serif;
+	font-weight: 700;
+	font-size: 1.2em;
+	margin: 0;
+	margin-right: 0.7em;
+}
+form ul.nav li a {
+	display: block;
+	padding: 0.45em 0.7em;
+	background-color: #eee;
+	background-color: rgba(255, 255, 255, 0.6);
+	color: #111;
+}

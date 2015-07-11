@@ -1,0 +1,1 @@
+The purpose of this log is to record the making of Contested Space. Here is where I'll be going over design, programming, business, and anything related to the game. Half the content here is for gamers, the other half is for developers. My goal is to make the game transparent and share what I've learned, or at least bring light to my ignorance.

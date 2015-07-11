@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <%- partial("../_head") %>
+    </head>
+    <body>
+        <div class="site">
+          <%- partial("../_header") %>
+          <% if (current.source == 'index') { %>
+            <%- yield %>
+          <% } else { %>
+          <div class="content">
+            
+            <div class="post">
+              <h1 class="post-header"><%= title %></h1>
+              <p class="post-info"><a class="author" href="zon@contestedspace.com">Zon</a>: <%= date %></p>
+              <div class="post-content">
+                <%- yield %>
+              </div>
+             </div>
+
+            <!-- <div id="comments">
+              <h2 >Comments</h2>
+              <a class="moot" href="https://moot.it/i/contested-space/comments/:{{ page.id | split: '/' | last }}">Comments</a>
+            </div> -->
+
+          </div>
+          <% } %>
+          <%- partial("../_footer") %>
+        </div>
+    </body>
+</html>

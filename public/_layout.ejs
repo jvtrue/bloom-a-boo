@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <%- partial("_head") %>
+    </head>
+    <body>
+        <div class="site">
+          <%- partial("_header") %>
+
+          <div class="content">
+            <%- yield %>
+          </div>
+
+          <%- partial("_footer") %>
+        </div>
+    </body>
+</html>

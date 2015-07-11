@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%- partial("../_head") %>
+
+    <script id="sign-in-template" type="text/mustache">
+      <%- partial("_sign-in") %>
+    </script>
+
+    <script id="register-template" type="text/mustache">
+      <%- partial("_register") %>
+    </script>
+
+    <script id="reset-password-template" type="text/mustache">
+      <%- partial("_reset-password") %>
+    </script>
+
+    <script id="change-password-template" type="text/mustache">
+      <%- partial("_change-password") %>
+    </script>
+
+    <script id="download-template" type="text/mustache">
+      <%- partial("_index") %>
+    </script>
+
+    <script src="/scripts/lib/mustache.js"></script>
+		<script src="/scripts/lib/underscore.js"></script>
+		<script src="/scripts/lib/backbone.js"></script>
+		<script src="/scripts/Api.js"></script>
+		<script src="/scripts/Template.js"></script>
+		<script src="/scripts/SignIn.js"></script>
+		<script src="/scripts/Register.js"></script>
+    <script src="/scripts/ResetPassword.js"></script>
+    <script src="/scripts/ChangePassword.js"></script>
+    <script src="/scripts/Download.js"></script>
+		<script src="/scripts/App.js"></script>
+
+		<link rel="stylesheet" href="/styles/account.css">
+  </head>
+
+  <body>
+    <div class="site">
+      <%- partial("../_header") %>
+      <div id="account" class="content"></div>
+      <%- partial("../_footer") %>
+    </div>
+  </body>
+
+</html>

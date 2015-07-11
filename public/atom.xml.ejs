@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<%
+var atomDate = function(d) {
+	var pad = function(n) {return n < 10 ? '0'+ n : n}
+ 	return d.getUTCFullYear() +'-'
+      + pad(d.getUTCMonth() + 1) +'-'
+      + pad(d.getUTCDate()) +'T'
+      + pad(d.getUTCHours()) +':'
+      + pad(d.getUTCMinutes()) +':'
+      + pad(d.getUTCSeconds()) +'Z'
+}
+%>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title><%= title %></title>
+ <link href="<%= url %>/atom.xml" rel="self"/>
+ <link href="<%= url %>/"/>
+ <updated><%= atomDate(new Date()) %></updated>
+ <id><%= url %>/</id>
+ <author>
+   <name>Matthew Z Haralovich</name>
+   <email>zon@contestedspace.net</email>
+ </author>
+
+<%
+for (var slug in public.log._data) {
+	if (slug != 'index') {
+		var post = public.log._data[slug]
+%>
+ <entry>
+   <title><%= post.title %></title>
+   <link href="<%= url %>/log/<%= slug %>.html"/>
+   <updated><%= atomDate(new Date(post.date)) %></updated>
+   <id><%= url %>/log/<%= slug %></id>
+   <content type="html"><![CDATA[<%- partial("log/"+ slug) %>]]></content>
+ </entry>
+<%
+	}
+}
+%>
+ 
+</feed>

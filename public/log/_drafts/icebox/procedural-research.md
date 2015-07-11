@@ -1,0 +1,11 @@
+Previously, I wrote a little about how product development will be a part of Contested Space. Research is a critical part of product development. Research allows players to discover new technology to use in their designs. Contested Space will use a research system where new discoveries are limitless. This way, there will always be a need to develop new products.
+
+Research will unlock components that can be used in a product. A ship might be composed of an engine, hull, shield generator, etc. I mentioned earlier how using specific products will grant experience points. These experience points can be spent on components used in the next iteration of the product.
+
+Research will be divided into generations depending on when it is discovered. So technology discovered in March might be considered first generation, and discoveries from April might be considered second generation. Between every generation component attributes will be normalized. So a ship with 100 hit points might end up with only 90 after normalization, but weapons will all be 10% weaker as well. Everything will work the same after normalization, and the game won't end up with ridiculously inflated stats over time.
+
+Some attributes aren't well suited for normalization. Things like ship speed or weapon range can't be scaled in the same way. These attributes will be reset intermittently. So some generations of technology might have slower engines than others because they were after a reset. New products will only be able to use components from two generations of technology, so ship designers might have to choose between a fast 1st generation engine and a new 3rd generation weapon.
+
+One advantage to this system is that Contested Space won't need to suddenly boost or nerf imbalanced components after a patch. The game can simply balance components coming up the research pipeline, and the old imbalanced components will be naturally obsoleted.
+
+It might also be possible to introduce completely new features or game mechanics through the research system. This might happen instead of announcing a new mechanic in patch notes. This way, because players could be discovering new mechanics, it would feel more like a player invented feature.

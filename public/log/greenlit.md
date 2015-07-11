@@ -1,0 +1,7 @@
+Contested Space was [Greenlit](http://steamcommunity.com/sharedfiles/filedetails/?id=251743253) recently. I must admit, I did not expect the project to be Greenlit at this time. The Contested Space Greenlight page hadn't been updated in quite a while. However, there was still a trickle of votes coming in. My best bet is we were very close to being Greenlit during the Kickstarter campaign. Only a few Greenlight votes came in over the last month, but it was enough to push us across the finish line.
+
+Overall we got 2,646 yes votes on the Greenlight campaign. That's a modest quantity for some companies, but for a little start up like Contested Space it's a big deal. We'll have a sustainable business if only a third of those people are converted into loyal players.
+
+My [trial employment](/log/going-pro.html) at Facepunch is going well. I ended up trying my hand at AI development. My goal is to give the animals of Rust more character. Lots of stuff has been broken and put back together or regressed and improved. At one point a [bug in bear eating habits](http://playrust.com/devblog-38/) caused them to drive every animal into extinction. My trial review is coming up at the end of January. At that point I'll be able to come with plan for Contested Space's development.
+
+Thank you for supporting Contested Space on Steam. Next month is going to be interesting.

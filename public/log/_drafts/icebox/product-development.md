@@ -1,0 +1,7 @@
+Contested Space lets players design their own ships and stations. This allows players to present themselves in a unique way, but the designs should function uniquely as well. While this feature won't be present in early alpha, a big goal is to eventually add a product development meta game.
+
+Ships, stations, supplies, anything man made is considered a product. Products have their own attributes that determine how effective they are or how much they cost. In Contested Space products will "level" or progress like a character in a RPG. As products are used they'll gain experience points that can be spent on future iterations of that same design.
+
+Products themselves tell a story. Products are a record of the priorities of their designer. As new versions of a product are created, they maintain some of the characteristics and appearance of their predecessors. Contested Space will enforce a limit to how many blocks can be altered in subsequent iterations of a product. This way, as products evolve, they'll form a coherent narrative.
+
+An alliance might start with elegant ships reasonably suited for most situations. As the alliance grows, they might encounter a variety of different opponents and develop specialized designs to deal with each of them. Later on, they might return to a consolidated design to take advantage of the economies of scale. This is how Contested Space aspires to provide deeper meaning to the ships and other products players design.
