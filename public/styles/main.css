@@ -132,7 +132,7 @@ h4 a:hover, h5 a:hover, h6 a:hover {
 }
 
 #title.slide {
-  background-image: url("/images/slides/title.jpeg");
+  background-image: url("/images/slides/krista.JPG");
   text-align: center;
 }
 #title.slide h3 {
@@ -159,7 +159,7 @@ h4 a:hover, h5 a:hover, h6 a:hover {
 }
 
 #about.slide {
-  background-image: url("/images/slides/about.jpeg");
+  background-image: url("/images/slides/computerrendering.png");
   background-position: center;
 }
 
